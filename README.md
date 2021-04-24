@@ -1,0 +1,2 @@
+# emb-c
+embedded project
