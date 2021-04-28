@@ -1,2 +1,2 @@
 # emb-c
-embedded project
+embedded Activity
