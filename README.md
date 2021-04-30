@@ -5,4 +5,4 @@
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
-||[![Cppcheck](https://github.com/Bharathgopal/Emb-C/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/Bharathgopal/Emb-C/actions/workflows/CodeQulaity.yml)||
+||[![cppcheck](https://github.com/Ashish291474/embc/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/Ashish291474/embc/actions/workflows/CodeQuality.yml)||
