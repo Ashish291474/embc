@@ -1,3 +1,8 @@
-# emb-c
-embedded Activity
-[![cppcheck](https://github.com/Ashish291474/embc/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/Ashish291474/embc/actions/workflows/CodeQuality.yml)
+# Heat control activity
+
+## In Action
+|![ON](simulation/ON.png)|
+
+|Build|Cppcheck|Codacy|
+|:--:|:--:|:--:|
+||[![Cppcheck](https://github.com/Bharathgopal/Emb-C/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/Bharathgopal/Emb-C/actions/workflows/CodeQulaity.yml)||
