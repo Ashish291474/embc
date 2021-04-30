@@ -11,24 +11,15 @@
 
 #include "activity1.h"
 #include "activity2.h"
+#include "peripheral.h"
 #include<avr/io.h>
 
-/**
- * @brief initializing peripherals
- * 
- */
-void peripheral_init(void)
-{
-    InitLED(); /*configure led ad button pins*/
-    InitADC();
-   
-}
-    
+
 uint16_t temp;
 
 int main(void)
 {
-    peripheral_init(); //initializing pheripherals
+    peripheral(); //initializing pheripherals
     while(1)
     {
         if(SEAT_ON) //If switch 1 is ON

@@ -1,6 +1,3 @@
-
-// include files
-
 #include<avr/io.h>
 #include "activity1.h"
 
