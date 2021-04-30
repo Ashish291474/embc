@@ -11,11 +11,14 @@
 
 #include "activity1.h"
 #include "activity2.h"
+#include "activity3.h"
+#include "activity4.h"
 #include "peripheral.h"
 #include<avr/io.h>
 
 
 uint16_t temp;
+char value;
 
 int main(void)
 {
@@ -28,14 +31,22 @@ int main(void)
             {
                 ledstate(LED_ON);//LED becomes on
                 temp=ReadADC(0);
+                value= pwm(temp);
+                Uwrite(value);
+
                
             }
-        }
             else
             {
                 
                 ledstate(LED_OFF);
             }
+        }
+        else
+        {
+            ledstate(LED_OFF);//LED is OFF
+            OCR1A=0;
+        }
        
     }
     return 0;
