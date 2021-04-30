@@ -1,7 +1,7 @@
 # Heat control activity
 
 ## In Action
-|![ON](simulation/ON.png)|
+|![working](activity.png)|
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
