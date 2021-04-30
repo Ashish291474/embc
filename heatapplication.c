@@ -30,7 +30,7 @@ int main(void)
             if(HEATER_ON) //If switch 2 is ON
             {
                 ledstate(LED_ON);//LED becomes on
-                temp=ReadADC(0);
+                temp=ReadADC(0); 
                 value= pwm(temp);
                 Uwrite(value);
 

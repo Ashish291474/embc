@@ -1,6 +1,10 @@
 #include<avr/io.h>
 #include "activity1.h"
 
+/**
+ * @brief function for initialising 
+ * 
+ */
 void InitLED(void)
 {
 	DDRB|=(1<<PB0);

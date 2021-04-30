@@ -1,4 +1,4 @@
-DOXY_FILE = HeatApplication
+DOXY_FILE = heatapplication
 BUILD_FILE = html
 
 FixPath = $(subst /,\,$1)
